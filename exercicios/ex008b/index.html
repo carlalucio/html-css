@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outras Formatações</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <h1>Outras formatações</h1>
+    <h2>Código-fonte e Pré-formatado</h2>
+    <p>O comando <code>document.getElementById ('teste')</code> é escrito em linguagem JavaScript. usando a tag &lt;code&gt; &lt;/code&gt; para criar uma fonte MONO-ESPAÇADA (monospace)</p>
+    <p>E usando a tag &lt;pre&gt; &lt;/pre&gt; (pré formatado), respeita a forma como foi dgitado, a quebra de linha, os espaços e tabulação. </p>
+    <p>Exemplo de código em Phyton</p>
+    <pre>
+        <code>
+    num = int(input('Digite um número'))
+    if num % 2 == 0: 
+        print (f'O número {num} é PAR)
+    else:
+        print(f'o número {num} é ÍMPAR')
+    print('Fim do programa')
+        </code>
+    </pre>
+    <h2>Citações simples</h2>
+    <p>Como diria o pai de um amigo: <q>O computador é um burro muito rápido</q>. Usamos a tag &lt;q&gt; &lt;/q&gt; (quotes), que coloca somente as aspas</p>
+    <h2>Citações completas</h2>
+    <p> Segundo Jeff Noble, no seu livro HMTL para leigos</p>
+    <blockquote cite="https://www.google.com.br/books/edition/HTML_XHTML_e_CSS_Para_Leigos/E8ZtDwAAQBAJ?hl=pt-BR&gbpv=1&dq=html+para+leigos&printsec=frontcover">
+        A diferença entre elementos inline e um bloco de texto é importante. Os lelementos HTML neste capítulo descrevm os blocos de texto.
+    </blockquote>
+    <p>Usamos a tag &lt;blockquote&gt; &lt;/blockquote&gt; para criar uma citação em parágrafo com deslocamento. Podemos incluir no blockquote o parâmetro cite="" para colocar um link para o text original </p>
+    <h2>Abreviações</h2>
+    <p>Usamos a tag &lt;abbr title=" "&gt;  &lt;/abbr &gt; para escrever o significado de uma sigla. Quando passar o mouse em cima dela, aparecerá o que foi escrito no title </p>
+    <p><q>Estou estudando <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>. Estou adorando!</q></p>
+    <h2>Texto invertido</h2>
+    <p>Usamos a tag &lt;bdo dir="rtl"&gt; &lt;/bdo&gt; para inverter a ordem das letras </p>
+    <p><bdo dir="rtl">Estou aprendendo a criar coisas em HTML</bdo></p>
+    
+</body>
+</html>

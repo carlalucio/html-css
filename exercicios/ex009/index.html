@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <h1>Trabalhando com Listas</h1>
+    <h2>Listas Ordenadas</h2>
+    <p>Usamos a tag &lt;ol&gt; &lt;/ol&gt; (ordered list) para criar uma lista onde a ordem dos itens é algo importante. E cada item da lista é colocado na tag &lt;li&gt; &lt;/li&gt; (list item).  No <abbr title="HyperText Markup Language 5">HTML5</abbr> o fechamento da tag lt é opcional</p>
+    <p>Dentro da tag&lt;ol&gt; &lt;/ol&gt;, podemos usar o parâmetro type=" " para indicar o tipo do marcador: 1- para valor padrão, A- para lista alfabética Maiúscula, a- para lista alfabética minúscula, I-para algrismos romanos Maiúsculo, i- para algarismos romanos minúsculos;  </p>
+    <ol type="i">
+        <li>Acordar</li>
+        <li>Ligar para o João</li>
+        <li>Tomar café</li>
+        <li>Escovar os dentes</li>
+        <li>Ir para a faculdade</li>
+        <li>Almoçar</li>
+        <li>Ir para o trabalho</li>
+        <li>Voltar para a casa</li>
+        <li>Jantar</li>
+        <li>Dormir</li>
+    </ol>
+    <h2>Listas não Ordenadas</h2>
+    <p>Usamos a tag &lt;ul&gt; &lt;ul&gt; (unordered list) para criar listas onde a ordem dos itens não é importante </p>
+    <p>Dentro da tag&lt;ul&gt; &lt;/ul&gt;, podemos usar o parâmetro type=" " para indicar o tipo do marcador:
+    <pre>
+    <code>disc</code> - padrão (bolinha preta),
+    <code>circle</code> - bolinha vazada
+    <code>square</code> - quadradinho preto
+    </pre>
+    <ul type="square">
+       <li>Pão</li>
+       <li>Leite</li>
+       <li>Tomate</li>
+       <li>Alface</li>
+       <li>Mateiga</li>
+       <li>Arroz</li>
+       <li>Feijão</li>
+
+    </ul>
+    <h2>Minhas linguagens favoritas</h2>
+    <p>Para criar uma sub lista em algum item, usamos uma nova tag&lt;ol&gt; &lt;/ol&gt; logo abaixo do item. E para personalizar o tipo de marcador, usamos o <code>type=" "</code>. Para dar sequência, usamos o<code> start=" "</code> . O start é paramêtro numérico, então se quiser continuar a partir do "e" usa o <code>start="5"</code></p>
+    <ol>
+        <li>Antigas</li>
+        <ol type="a">
+            <li>Clipper</li>
+            <li>Visual Basic</li>
+            <li>Fortan</li>
+            <li>Delphi</li>
+        </ol>
+        <li>Novas</li>
+        <ol type="a" start="5">
+            <li>PHP</li>
+            <li>Python</li>
+            <li>JavScript</li>
+            <li>Kotlin</li>
+
+        </ol>
+    </ol>
+    <h2>Meus jogos favoritos</h2>
+    <ol>
+        <li>Nintendinho</li>
+        <ul type="square">
+            <li>Mario Bros</li>
+            <ul type="circle">
+                <li>Mario Bros 3</li>
+                <li>Mario: lost Levels</li>
+            </ul>
+            <li>Ninja Gaiden</li>
+        </ul>
+        <li>Super Nintendo</li>
+        <ul type="square">
+            <li>Mario </li>
+            <li>Donkey Kong</li>
+        </ul>
+        <li>PlayStation</li>
+        <ul type="square">
+            <li>Final Fantasy</li>
+            <li>Castlevania</li>
+        </ul>
+        <h2>Lisa de Definições</h2>
+        <p>Uma lista de definição fica dentro da tag &lt;dl&gt; &lt;/dl&gt; (definition list). Cada termo da lista fica dentro da tag &lt;dt&gt; &lt;/dt&gt; (definition term). E cada descrição do termo fica dentro da tag &lt;dd&gt; &lt;/dd&gt; (definition description). Ex: </p>
+        <dl>
+            <dt><abbr title="HyperText Markup Language">HTML</abbr></dt>
+            <dd>Linguagem de marcação do conteúdo de um site.</dd>
+            <dt><abbr title="Cascading Style Sheets">CSS</abbr></dt>
+            <dd>Linguagem de marcação para a criação do design de um site.</dd>
+            <dt>JavaScript</dt>
+            <dd>Linguagem de programação para a criação de interatividade de um site</dd>
+        </dl>
+        
+    </ol>
+
+
+
+
+</body>
+</html>
